@@ -10,7 +10,8 @@ const app = express();
 app.use(express.json());
 app.use(
   cors({
-    origin: "*",
+    origin:
+      "https://fyp-frontend-ohg4-p0uxxgej6-yourker121s-projects.vercel.app",
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH"],
     allowedHeaders: ["Content-Type", "Authorization"],
   })
